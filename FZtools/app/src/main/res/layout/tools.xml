@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:background="@drawable/main_bg"
+	android:paddingBottom="30dp">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:background="@drawable/tools_bg_1">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="单位换算"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="判断勾股数"
+						android:onClick="判断勾股数"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="进制转换"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="隐藏图片"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="记事本"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="文件格式查询"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="诗词查询"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="QQ刷屏"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="浏览器"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="我的世界攻略"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="手机P图心得"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="移动开发心得"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:background="@drawable/tools_bg_1"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="txt阅读器"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="元素周期表"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="乘法表生成"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:background="@drawable/tools_bg_1"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="模拟指令"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="应用管理"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="提取壁纸"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:background="@drawable/tools_bg_1"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="C语言教程"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="清理内存"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="清理大文件"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="计算器"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="图片取色"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="秀吐司"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="秀弹窗"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="音乐播放器"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="查看WIFI密码"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:background="@drawable/tools_bg_1"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="万年历"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="时钟"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="二维码生成"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:background="@drawable/tools_bg_1"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="网盘搜索网站"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="常用网站"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="手机信息查看"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="修改软件教程"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="文件知识"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="图片管理"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="数字转换"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="C语言宏替换"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="安卓知识"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:background="@drawable/tools_bg_1"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="翻译"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="反编译"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="函数绘图"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:background="@drawable/tools_bg_1"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="天气查询"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"
+						android:text="桌面插件"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_weight="1"
+						android:background="?android:attr/selectableItemBackgroundBorderless"
+						android:textColor="#FFFFFF"
+						android:text="录制"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>
+

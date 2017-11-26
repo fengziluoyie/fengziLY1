@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FZ工具箱</string>
+    <string name="label_shezhi">设置</string>
+    <string name="label_guanyu">关于</string>
+	<string name="label_zhuti">主题</string>
+	<string name="label_juanzeng">捐赠</string>
+	<string name="label_bangzhu">帮助</string>
+	<string name="label_gongju">工具</string>
+</resources>

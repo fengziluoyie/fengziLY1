@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:background="@drawable/main_bg">
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="FZ工具箱"
+		android:textColor="#FFFFFF"
+		android:id="@+id/main_yiju"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:ellipsize="marquee"
+		android:scrollHorizontally="true"
+		android:focusableInTouchMode="true"
+		android:focusable="true"
+		android:gravity="center"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/tools_bg_1"
+		android:elevation="2dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="top|center">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="@drawable/tools_bg_1"
+			android:gravity="top|center"
+			android:elevation="2dp">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:background="?android:attr/selectableItemBackgroundBorderless"
+				android:text="工具"
+				android:layout_weight="1"
+				android:onClick="Click_tools"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:background="@drawable/tools_bg_1"
+		android:elevation="2dp">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="top|center">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="?android:attr/selectableItemBackground"
+				android:textColor="#FFFFFF"
+				android:text="关于"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="?android:attr/selectableItemBackground"
+				android:textColor="#FFFFFF"
+				android:text="分享"
+				android:onClick="share"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="?android:attr/selectableItemBackground"
+				android:textColor="#FFFFFF"
+				android:text="捐赠"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="?android:attr/selectableItemBackground"
+				android:textColor="#FFFFFF"
+				android:text="反馈"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:background="?android:attr/selectableItemBackground"
+				android:textColor="#FFFFFF"
+				android:text="离开"
+				android:onClick="exit"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

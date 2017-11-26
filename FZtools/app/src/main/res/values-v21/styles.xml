@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+	  	<item name="android:colorPrimary">#50c4e5</item>
+		<item name="android:colorPrimaryDark">#50c4e5</item>
+		<item name="android:colorAccent">#0050c4e5</item> 
+		<item name="android:colorButtonNormal">#FFFFFFFF</item>
+	  <item name="android:windowIsTranslucent">true</item>
+	</style>
+	<style name="noanim" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/notAnimation</item>
+		<item name="android:windowDisablePreview">true</item> 
+    </style>
+
+    <style name="notAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right</item>
+		
+    </style>
+</resources>
